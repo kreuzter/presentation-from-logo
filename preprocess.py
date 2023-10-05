@@ -39,9 +39,9 @@ colors = extract_from_path(args.i)
 
 i = 0
 while colors[0][i][0] == (255, 255, 255) \
-   or colors[0][i][0] == (0,0,0) \
-   or colors[0][i][0] == args.l  \
-   or colors[0][i][0] == args.d :
+   or colors[0][i][0] == (0,0,0)         \
+   or colors[0][i][0] == tuple(args.l)   \
+   or colors[0][i][0] == tuple(args.d) 
   i = i+1
 
 mainColor          = Color(colors[0][i][0])
