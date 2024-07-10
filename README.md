@@ -16,4 +16,4 @@ Try running e.g. with these arguments:
 python3 preprocess.py -i "imgs/logo.png" -l "220,255,255"
 ```
 
-With a main created one can continue creating a beamer presentation as usually.
+With a `main.tex` created one can continue working with a beamer presentation as usually.
